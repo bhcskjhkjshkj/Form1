@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    background-color: #1b1b32;
+    color: #fff;
+}
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main{
+    border: 3px solid #3b3b4f;
+    border-radius: 20px;
+    width: 420px;
+    background-color: aqua;
+}
+p{
+    font: size 15px; ;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px auto;
+}
+.input-box input{
+  width: 100%;
+  padding: 5px 20px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  outline: none;
+  /* border: 1px solid #fff; */
+  cursor: pointer;
+  /* box-shadow: 0 0 10px wheat; */
+}
+select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #0a0a23;
+    box-shadow: 0 0 10px #fff;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+#click{
+    width: 20px;
+    height: 20px;
+    background-color: #0a0a23;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+}
+button{
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0a0a23;
+    font-size: 20px ;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px #fff;
+}
+.line{
+   border-bottom: 3px solid #3b3b4f;
+}
